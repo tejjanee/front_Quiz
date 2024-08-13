@@ -28,9 +28,7 @@ export const Home = () => {
           categories.map((category) => (
             <QuizCard quizCategory={category} key={category.id} />
           ))
-        ) : (
-          <p>No categories available</p>
-        )}
+        ) }
 
       </main>
     </Fragment>
