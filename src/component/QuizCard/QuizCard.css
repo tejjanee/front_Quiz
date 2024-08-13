@@ -1,0 +1,42 @@
+.container{
+    width: 20rem;
+    height: 33rem;
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    padding: 1rem;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.img-box {
+    width: 17rem;
+    height: 17rem;
+    object-fit: cover;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+}
+
+.details {
+    color: var(--text-color-primary);
+}
+
+.title {
+    width: 100%; /* Ensures the title takes the full width of the container */
+    white-space: normal; /* Allows the text to wrap to a new line */
+    overflow-wrap: break-word; /* Allows long words to be broken and wrapped to the next line */
+    box-sizing: border-box; 
+}
+.button {
+    padding: .875rem .5rem;
+}
+
+.play-now-btn {
+    background-color: var(--bg-color);
+}
+
+
+

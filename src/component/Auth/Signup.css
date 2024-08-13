@@ -1,0 +1,91 @@
+.d-grid {
+    margin: 7rem 0 1rem 0;
+    display: grid;
+    place-content: center center;
+  }
+  
+  .login-auth {
+    width: 33rem;
+    background-color: var(--primary-color);
+    color: var(--text-color-primary);
+    padding: 1rem 2rem;
+    border-radius: 4px;
+  }
+  
+  .auth-title {
+    margin: 1rem 0;
+    text-align: center;
+  }
+  
+  .form-input {
+    width: 100%;
+    margin: 4px 0;
+    font-size: 1rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 4px;
+    color: var(--primary-color);
+  }
+  
+  .form-input:focus {
+    outline: 1px solid var(--primary-color);
+  }
+  
+  .form-label {
+    padding: 0;
+    text-decoration: none;
+    color: var(--text-color-primary);
+  }
+  
+  .form-container {
+    margin: 1rem 0;
+  }
+  
+  .error-message {
+    color: red;
+    margin: 1rem 0;
+  }
+  
+  .cta {
+    margin: 1rem 0;
+  }
+  
+  .button {
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .login-btn {
+    width: 100%;
+    background-color: var(--bg-color);
+    color: var(--text-color-primary);
+  }
+  
+  .btn-margin {
+    margin-top: 1rem;
+  }
+  
+  .sign-up-btn[disabled]:hover {
+    cursor: none;
+    background-color: var(--primary-color);
+    color: var(--text-color-primary);
+  }
+  
+  .btn-outline-primary {
+    color: var(--text-color-primary);
+    background-color: transparent;
+    border: 1px solid var(--bg-color);
+    cursor: pointer;
+  }
+  
+  .btn-outline-primary:hover {
+    color: var(--background-color);
+    background-color: var(--bg-color);
+    cursor: pointer;
+  }
+  .link:hover {
+    text-decoration: underline;
+    color: #333; /* Darker color for hover effect */
+  }
